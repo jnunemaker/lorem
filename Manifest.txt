@@ -1,0 +1,11 @@
+bin/lorem
+CHANGELOG.txt
+lib/lorem/base.rb
+lib/lorem/version.rb
+lib/lorem.rb
+Manifest.txt
+Rakefile
+README.txt
+setup.rb
+test/test_helper.rb
+test/unit/base_test.rb

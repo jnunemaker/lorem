@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'lorem'
+
+number = ARGV.shift || 1
+type = ARGV.shift || :paragraphs
+
+puts
+puts Lorem::Base.new(type, number).output
+puts
+
+if number == 1 && type == :paragraphs
+  puts
+  puts "Usage: lorem [number] [type] (ie: lorem 5 paragraphs)"
+  puts " - Number defaults to 1 if no parameters given"
+  puts " - Type defaults to paragraphs"
+  puts " - Available Types:"
+  Lorem::Base::TYPES.each { |t| puts "   - #{t}" }
+  puts
+end
