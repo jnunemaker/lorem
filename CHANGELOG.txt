@@ -1,2 +1,3 @@
+0.1.2 - updated to allow auto paste to clipboard on osx using pbcopy
 0.1.0 - 4/17/2007
 	* initial release
