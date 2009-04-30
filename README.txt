@@ -12,3 +12,9 @@ Usage: lorem [number] [type] (ie: lorem 5 paragraphs)
    - words
    - chars
    - characters
+   
+   lorem -p # will paste default to pasteboard on OSX
+   
+== Docs
+
+http://rdoc.info/projects/jnunemaker/lorem
